@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(NODE_OPTIONS=\"--use-system-ca\" npm install qrcode)",
+      "Bash(NODE_OPTIONS=\"--use-system-ca\" npm install -D @types/qrcode)",
+      "Bash(npm run *)",
+      "Bash(NODE_OPTIONS=\"--use-system-ca\" npm run build)",
+      "Bash(NODE_OPTIONS=\"--use-system-ca\" npm run *)",
+      "Bash(grep -q \"Ready in\\\\|error\" \"C:\\\\\\\\Users\\\\\\\\User\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Temp\\\\\\\\claude\\\\\\\\C--Users-User-OneDrive-Escritorio-Juan-cosas-Prog-solidarity\\\\\\\\5e14023e-0dae-4999-8bbd-534fc7ba0c3d\\\\\\\\tasks\\\\\\\\blcp61z6o.output\")",
+      "Bash(cat \"C:\\\\\\\\Users\\\\\\\\User\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Temp\\\\\\\\claude\\\\\\\\C--Users-User-OneDrive-Escritorio-Juan-cosas-Prog-solidarity\\\\\\\\5e14023e-0dae-4999-8bbd-534fc7ba0c3d\\\\\\\\tasks\\\\\\\\blcp61z6o.output\")",
+      "Bash(curl -s -o /dev/null -w '%{http_code}' http://localhost:3000__TRACKED_VAR__)",
+      "Bash(curl -s \"http://localhost:3000/socio/carnet\")",
+      "Bash(grep -o -E \"Pagar próxima cuota|Pagar cuota · \\\\\\\\\\\\$[0-9.]+|estado-banner is-\\(ok|bad\\)|<svg[^>]*viewBox\")",
+      "Bash(curl -s \"http://localhost:3000/socio/carnet?estado=vencida\")",
+      "Bash(grep -o -E \"Pagar próxima cuota|Pagar cuota · \\\\\\\\\\\\$[0-9.]+|estado-banner is-\\(ok|bad\\)\")",
+      "Bash(curl -s \"http://localhost:3000/comercio/result?result=vencida&nombre=Lucia+Fernandez&eslabon=00501\")"
+    ]
+  }
+}

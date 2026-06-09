@@ -12,6 +12,8 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Frozen design prototype — not part of the Next.js app.
+    "_design-handoff/**",
   ]),
 ]);
 
